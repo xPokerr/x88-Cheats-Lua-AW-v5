@@ -2,6 +2,7 @@
 --Dragon's Text-UI--
 --Rework by w1ldac3--
 --Fixed by Dragon on June 9th, 2020--
+--Fixed by xpoker on July 26th, 2020--
 
 local ref = gui.Reference("Visuals")
 local x88_tab = gui.Tab(ref, "x88_tab", "x88Cheats")
