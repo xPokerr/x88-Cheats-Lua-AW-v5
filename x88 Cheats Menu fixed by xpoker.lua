@@ -968,14 +968,3 @@ callbacks.Register("Draw", "kills_deaths", kills_deaths)
 callbacks.Register( "Draw", "overlay", overlay )
 callbacks.Register( "Draw", "welcome", welcome )
 callbacks.Register( "Draw", "textui", textui )
-
---debug()
-
-
-
-
-
--- Masterlooser Menu By Poker.lua:665: attempt to perform arithmetic on a nil value
--- Masterlooser Menu By Poker.lua:76: attempt to perform arithmetic on a nil value
--- Masterlooser Menu By Poker.lua:105: attempt to perform arithmetic on a nil value
--- Masterlooser Menu By Poker.lua:135: attempt to perform arithmetic on a nil value
