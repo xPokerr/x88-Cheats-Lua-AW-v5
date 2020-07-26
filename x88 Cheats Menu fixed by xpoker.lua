@@ -589,17 +589,6 @@ end
 	if entities.GetPlayerResources() ~= nil then
 		PING = entities.GetPlayerResources():GetPropInt( "m_iPing", client.GetLocalPlayerIndex() );
 
-		DrawPingColor();
-		draw.TextShadow(x+355,y+120, PING );
-
-	else
-
-		draw.Color( 255, 255, 255, 255 );
-		draw.TextShadow(x+355,y+120, "0" );
-
-	end
-
-	function DrawPingColor()
 		if ( PING <= 50 ) then
 			draw.Color(0, 255, 0, 255);
 		elseif ( PING <= 100 ) then
@@ -613,7 +602,13 @@ end
 		else
 			draw.Color( 255, 0, 0, 255 );
 		end
-	
+		draw.TextShadow(x+355,y+120, PING );
+
+	else
+
+		draw.Color( 255, 255, 255, 255 );
+		draw.TextShadow(x+355,y+120, "0" );
+
 	end
 end
 	--PING END--
